@@ -12,8 +12,8 @@ function User({ user }) {
         <div className={styles.container}>
 
         <Head>
-            <title>Open Blockchain and Crypto Repository</title>
-            <meta name="description" content="JoakimVivas.com - Open Blockchain and Crypto Repository" />
+            <title>Open Repository on Blockchain and Crypto</title>
+            <meta name="description" content="JoakimVivas.com - Open Repository on Blockchain and Crypto" />
             <link rel="icon" href="/icon.png" />
         </Head>
 
