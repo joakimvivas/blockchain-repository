@@ -62,6 +62,7 @@ function User({ user }) {
                 
             <footer className={styles.footer} style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}> 
                 <span><p style={{fontSize: "12px", width: '100%'}}><b>User session validated with: </b>{user.address}</p></span>
+                <span><p style={{fontSize: "12px", width: '100%'}}><b>Contact me to add new content, modify, etc... feel free, at: </b>kim@joakimvivas.com</p></span>
                 <button style={{fontSize: "16px", width: '25%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}} onClick={() => signOut({ redirect: '/' })}>Sign out</button>
             </footer>
         </div>
