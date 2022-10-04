@@ -52,9 +52,38 @@ function User({ user }) {
                         <img src="/images/TheFUTUREGlobalEconomy.png" alt="The Metaverse Overview: Vision, Technology, and Tactics" width="100%" height="100%"></img>
                         <a href="/docs/1663378353621.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
                     </div>
-
-
-
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Bitcoin: A Peer-to-Peer Electronic Cash System</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>Satoshi Nakamoto</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2008</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>Commerce on the Internet has come to rely almost exclusively on financial institutions serving as trusted third parties to process electronic payments. While the system works well enough for most transactions, it still suffers from the inherent weaknesses of the trust based model. Completely non-reversible transactions are not really possible, since financial institutions cannot avoid mediating disputes. </p>
+                        <img src="/images/Bitcoin.png" alt="Bitcoin: A Peer-to-Peer Electronic Cash System" width="100%" height="100%"></img>
+                        <a href="/docs/bitcoin.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform.</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>Vitalik Buterin</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2014</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>The Ethereum protocol was originally conceived as an upgraded version of a cryptocurrency, providing advanced features such as on-blockchain escrow, withdrawal limits and financial contracts, gambling markets and the like via a highly generalized programming language.</p>
+                        <img src="/images/ethereum.png" alt="Ethereum: A Next-Generation Smart Contract and Decentralized Application Platform" width="100%" height="100%"></img>
+                        <a href="/docs/Ethereum.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>POLKADOT: Vision for a heterogeneus multi-chain framework</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>Dr. Gavin Wood</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2019</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>This is intended to be a technical “vision” summary of one possible direction that may be taken in further developing the blockchain paradigm together with some rationale as to why this direction is sensible. It lays out in as much detail as is possible at this stage of development a system which may give a concrete improvement on a number of aspects of blockchain technology. It is not intended to be a specification, formal</p>
+                        <img src="/images/polkadot.png" alt="POLKADOT: Vision for a heterogeneus multi-chain framework" width="100%" height="100%"></img>
+                        <a href="/docs/Polkadot.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Decentralized Finance (DeFi): Transformative Potential & Associated Risks</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>Federal Reserve (Francesca Carapella, Edward Dumas, Jacob Gerszten, Nathan Swem, Larry Wall)</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2022</p>  
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>The economic research that is linked from this page represents the views of the authors and does not indicate concurrence either by other members of the Board's staff or by the Board of Governors. The economic research and their conclusions are often preliminary and are circulated to stimulate discussion and critical comment. The Board values having a staff that conducts research on a wide range of economic topics and that explores a diverse array of perspectives on those topics. The resulting conversations in academia, the economic policy community, and the broader public are important to sharpening our collective thinking.</p>
+                        <img src="/images/defi-and-fed.png" alt="Decentralized Finance (DeFi): Transformative Potential & Associated Risks" width="100%" height="100%"></img>
+                        <a href="/docs/defi-and-fed.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
 
                     
                 </div>
