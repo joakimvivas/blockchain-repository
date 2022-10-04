@@ -84,10 +84,10 @@ function SignIn() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Open Repository on Blockchain and Crypto</h1>
+        <h1 className={styles.title}>Open Repository on Blockchain, Web3 <br></br>for DeFi, NFTs, GameFi and Crypto</h1>
         <div className={styles.grid}>
           <div className={styles.card}>
-          <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Sign in with you Wallet</h2>
+          <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Sign in with your Wallet</h2>
             <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
               <button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'black', backgroundColor: 'orange', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}} onClick={() => handleAuth("metamask")}>
               Connect via Metamask
@@ -96,7 +96,7 @@ function SignIn() {
               Connect via Coinbase
               </button>
               <button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'black', backgroundColor: 'white', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}} onClick={() => handleAuth("walletconnect")}>
-              Connect via Wallet Connect
+              Connect via Wallet Connect<br></br>(for Mobile)
               </button>
             </div>
           </div>
