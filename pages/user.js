@@ -92,9 +92,31 @@ function User({ user }) {
                         <img src="/images/Banking-in-2035-three-possible-futures.png" alt="Banking in 2035: three possible futures" width="100%" height="100%"></img>
                         <a href="/docs/1665301470009.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
                     </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Top 30 NFT - Use Cases For Enterprises</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>Rejolut</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2022</p>  
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>NFTs, or non-fungible tokens,became a popular topic in 2021's digital world, comprising digital music, tradingcards, digital art, and photographs ofanimals. The world's most expensive NFT,"First 5000 Days" by Beeple, which cost 69million US dollars, made news in March2021.</p>
+                        <img src="/images/1665135192404.png" alt="Top 30 NFT - Use Cases For Enterprises" width="100%" height="100%"></img>
+                        <a href="/docs/1665135192404.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Towards a Green Blockchain: A Review of Consensus Mechanisms and their Energy Consumption</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>Abigael Okikijesu Bada, Amalia Damianou, Constantinos Marios Angelopoulos and Vasilios Katos</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2022</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>The European Green Deal, enacted to achieve a ‘climateneutral bloc’ by 2050, and the recent International Telecommunication Union’s global campaign to reduce ICT’s carbon footprint by 45 per cent by 2030, indicate an imperative need for a paradigm shift in digital transformation and energy use reconnaissance.</p>
+                        <img src="/images/1665123074347.png" alt="Towards a Green Blockchain" width="100%" height="100%"></img>
+                        <a href="/docs/1665123074347.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>The next evolution of digital identity: Scalable, secure, and trusted digital credentials </h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>IBM Institute for Business Value</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2022</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>The pandemic accelerated the transformation of digital credentials, creating an urgent need for organizations to issue, manage, and verify digital identities at any time. A global digital credential infrastructure could streamline this process while improving user experience—from enabling people to pass quickly through airport security, to proving that a welder has the required certifications to be on a job site, to verifying the age of a customer purchasing a bottle of wine.</p>
+                        <img src="/images/The-next-evolution-of-digital-identity-Scalable-secure-and-trusted-digital-credentials.png" alt="The next evolution of digital identity" width="100%" height="100%"></img>
+                        <a href="/docs/1665082779033.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
 
-
-                    
                 </div>
             </main>
                 
