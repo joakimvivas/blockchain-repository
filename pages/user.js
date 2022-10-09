@@ -132,6 +132,22 @@ function User({ user }) {
                         <img src="/images/A-Web-3-0-Guide-for-Brands-Andrea-Lorini.png" alt="A WEB 3.0 GUIDE FOR BRANDS" width="100%" height="100%"></img>
                         <a href="/docs/1664267255950.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
                     </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>The Future of Money and Payments</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>U.S. Department of the Treasury Report</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2022</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>This report reviews the current U.S. system of money and payments, including developments in instant payments and stablecoins. It also describes design choices for a potential U.S. Central Bank Digital Currency (CBDC) in the context of public policy considerations related to building the future of money and payments, supporting U.S. global financial leadership, advancing financial inclusion and equity, and minimizing risks. </p>
+                        <img src="/images/The-Future-of-Money-and-Payments.png" alt="The Future of Money and Payments" width="100%" height="100%"></img>
+                        <a href="/docs/1663407919077.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Crypto-Assets: Implications for Consumers, Investors, and Businesses </h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>U.S. Department of the Treasury Report</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2022</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>Digital asset markets have changed and grown dramatically over the past decade based on estimates of market capitalization, transaction volumes, and the number and types of assets. Millions of people globally have some exposure to crypto-assets, including at least 12% of Americans. President Biden’s Executive Order on Ensuring Responsible Development of Digital Assets (Executive Order) observes that continued expansion of crypto-based technology could have profound implications for the users of crypto-assets—namely, consumers, investors, and businesses. </p>
+                        <img src="/images/Crypto-Assets-Implications-for-Consumers-Investors-and-Businesses.png" alt="Crypto-Assets" width="100%" height="100%"></img>
+                        <a href="/docs/1663413922392.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
 
                 </div>
             </main>
