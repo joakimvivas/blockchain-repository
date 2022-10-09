@@ -84,6 +84,15 @@ function User({ user }) {
                         <img src="/images/defi-and-fed.png" alt="Decentralized Finance (DeFi): Transformative Potential & Associated Risks" width="100%" height="100%"></img>
                         <a href="/docs/defi-and-fed.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
                     </div>
+                    <div className={styles.card}>
+                        <h2 style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>Banking in 2035: three possible futures</h2>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>AUTHORED BY: </b>Economist Impact and sponsored by SAS</p>
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>DATE: </b>2022</p>  
+                        <p style={{display: 'flex', flexDirection: 'column', alignItems: 'center', fontSize: "12px", width: '100%'}}><b>SUMMARY: </b>Banks today find themselves buffeted by a range of forces, many of which are accelerating. Long-term trends such as climate change and demographic ageing are picking up. Shock events like the covid-19 pandemic and the war in Ukraine have destabilised markets. The direct threat posed by both fintech and big tech companies is growing. Taken together, these forces of change are causing banks to evolve business models to meet new societal expectations and engage customers in highly dynamic digital environments.</p>
+                        <img src="/images/Banking-in-2035-three-possible-futures.png" alt="Banking in 2035: three possible futures" width="100%" height="100%"></img>
+                        <a href="/docs/1665301470009.pdf" target="_blank"><button style={{fontSize: "16px", width: '100%', height: '50px', padding: '10px', color: 'white', backgroundColor: 'blue', margin: '5px', marginTop: '15px', marginBottom: '10px', borderRadius: '100px', border: 'none', flexDirection: 'row', boxShadow: '0px 2px 4px rgba(17, 17, 17, 0.12)', cursor: 'pointer'}}>Download</button></a>
+                    </div>
+
 
                     
                 </div>
