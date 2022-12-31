@@ -82,7 +82,7 @@ function SignIn() {
         <meta name="description" content="JoakimVivas.com - Open Repository on Blockchain and Crypto" />
         <link rel="icon" href="/icon.png" />
       </Head>
-
+      
       <main className={styles.main}>
         <h1 className={styles.title}>Open Repository on Blockchain, Web3 <br></br>for DeFi, NFTs, GameFi and Crypto</h1>
         <div className={styles.grid}>
